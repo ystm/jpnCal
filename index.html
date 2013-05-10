@@ -1,0 +1,32 @@
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="./HolidayChk.js"></script>
+<script type="text/javascript" src="./jpnCal.js"></script>
+<link href="./jpnCal.css" type="text/css" rel="stylesheet">
+<script type="text/javascript">
+$(document).ready(function () {
+$('#karenda').jpnCal({
+dayDirection:'week',
+monthDirection:'vertical',
+holiday:[1,0],
+ex_holiday:['2013/5/10'],
+ex_workday:['2013/5/12'],
+showMonths:2,
+dayCellWidth:28,
+dayCellHeight:29
+});
+});
+</script>
+</head>
+<body>
+
+<div id="karenda">
+karenda-
+</div>
+
+
+
+</body>
+
+</html>

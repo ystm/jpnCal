@@ -1,0 +1,71 @@
+/* default dimensions and justification for each month including title */
+.jpnCalMo {
+ margin-bottom:30px;
+ margin-right:30px;
+ text-align:center;
+/* display:table; */
+ font-family:Tahoma;
+}
+
+/* day block dimensions and style - for all day blocks */
+.jpnCalMo .dow, .jpnCalMo .day, .jpnCalMo .pday, .jpnCalMo .aday {
+	color:#000000;
+	border-right:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	border-left:1px solid #EEE;
+}
+/* day of week header specific style */
+.jpnCalMo .dow {
+	background:#fff8dc;
+	border-bottom:0px;
+}
+/* actual calendar day default style */
+.jpnCalMo .day {
+	font-size:15pt;
+/* display: table-cell; */
+ vertical-align: middle;
+ text-align:center;
+}
+/* selectable calendar day specific style */
+.jpnCalMo .day {
+	background:#FFF;
+}
+
+/* day0 - day6 css */
+.jpnCalMo .day0 {
+ color:red;
+}
+
+.jpnCalMo .day1 {
+	
+}
+
+.jpnCalMo .day2 {
+	
+}
+
+.jpnCalMo .day3 {
+	
+}
+
+.jpnCalMo .day4 {
+	
+}
+
+.jpnCalMo .day5 {
+	
+}
+
+.jpnCalMo .day6 {
+ color:blue;	
+}
+
+.jpnCalMo .holiday{
+	background:#fa8072;
+}
+
+/* previous and subsequent months calendar day specific style */
+.jpnCalMo .pday, .jpnCalMo .aday {
+	background:#ffffff;
+	color:#ffffff;
+}
